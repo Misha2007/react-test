@@ -14,7 +14,7 @@ const Meals = () => {
   useEffect(() => {
     fetchInfo();
   }, []);
-  console.log(data);
+
   return (
     <ul id="meals">
       {data.map((meal) => (
